@@ -100,7 +100,7 @@ class App extends React.Component {
           this.state.redditResponseError ?
           <div>
             <h2 className="error">
-            {`"${this.state.redditResponseError}"`} does not exist
+            {`"${this.state.redditResponseError}"`} does not exist.
             </h2>
           </div> :
           <div>
